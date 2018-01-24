@@ -1,0 +1,89 @@
+<PISI>
+    <Source>
+        <Name>python-keyrings.alt</Name>
+        <Packager>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">Alternate keyring backend implementations for use with python-keyring</Summary>
+        <Description xml:lang="en">Alternate keyring backend implementations for use with the keyring package
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-keyrings.alt</Name>
+        <Summary xml:lang="en">Alternate keyring backend implementations for use with python-keyring</Summary>
+        <Description xml:lang="en">Alternate keyring backend implementations for use with the keyring package
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/keyrings.alt-2.3-py2.7-nspkg.pth</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/keyrings.alt-2.3-py2.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/keyrings.alt-2.3-py2.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/keyrings.alt-2.3-py2.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/keyrings.alt-2.3-py2.7.egg-info/entry_points.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/keyrings.alt-2.3-py2.7.egg-info/namespace_packages.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/keyrings.alt-2.3-py2.7.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/keyrings.alt-2.3-py2.7.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/keyrings/alt/Gnome.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/keyrings/alt/Gnome.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/keyrings/alt/Google.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/keyrings/alt/Google.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/keyrings/alt/Windows.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/keyrings/alt/Windows.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/keyrings/alt/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/keyrings/alt/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/keyrings/alt/_win_crypto.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/keyrings/alt/_win_crypto.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/keyrings/alt/file.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/keyrings/alt/file.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/keyrings/alt/file_base.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/keyrings/alt/file_base.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/keyrings/alt/keyczar.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/keyrings/alt/keyczar.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/keyrings/alt/multi.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/keyrings/alt/multi.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/keyrings/alt/pyfs.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/keyrings/alt/pyfs.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/keyrings.alt-2.3-py3.5-nspkg.pth</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/keyrings.alt-2.3-py3.5.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/keyrings.alt-2.3-py3.5.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/keyrings.alt-2.3-py3.5.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/keyrings.alt-2.3-py3.5.egg-info/entry_points.txt</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/keyrings.alt-2.3-py3.5.egg-info/namespace_packages.txt</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/keyrings.alt-2.3-py3.5.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/keyrings.alt-2.3-py3.5.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/keyrings/alt/Gnome.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/keyrings/alt/Google.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/keyrings/alt/Windows.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/keyrings/alt/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/keyrings/alt/__pycache__/Gnome.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/keyrings/alt/__pycache__/Google.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/keyrings/alt/__pycache__/Windows.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/keyrings/alt/__pycache__/__init__.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/keyrings/alt/__pycache__/_win_crypto.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/keyrings/alt/__pycache__/file.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/keyrings/alt/__pycache__/file_base.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/keyrings/alt/__pycache__/keyczar.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/keyrings/alt/__pycache__/multi.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/keyrings/alt/__pycache__/pyfs.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/keyrings/alt/_win_crypto.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/keyrings/alt/file.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/keyrings/alt/file_base.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/keyrings/alt/keyczar.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/keyrings/alt/multi.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/keyrings/alt/pyfs.py</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-01-19</Date>
+            <Version>2.3</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
+        </Update>
+    </History>
+</PISI>

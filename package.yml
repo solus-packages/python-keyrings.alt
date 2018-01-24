@@ -1,0 +1,35 @@
+name       : python-keyrings.alt
+version    : 2.3
+release    : 1
+source     :
+    - https://github.com/jaraco/keyrings.alt/archive/2.3.tar.gz : f6c931abdeba1813cd020550b58e67f561bf9085fd80a206761eb943602b6a3b
+license    : MIT
+component  : programming.python
+summary    : Alternate keyring backend implementations for use with python-keyring
+description: |
+    Alternate keyring backend implementations for use with the keyring package
+builddeps  :
+    - pycrypto
+    - python-backports.unittest_mock
+    - python-keyring
+    - python-mock
+    - python-pytest
+    - python-setuptools
+    - python-setuptools-scm
+build      : |
+    export SETUPTOOLS_SCM_PRETEND_VERSION=$version
+    %python_setup
+    %python3_setup
+install    : |
+    export SETUPTOOLS_SCM_PRETEND_VERSION=$version
+    %python_install
+    %python3_install
+check      : |
+    export SETUPTOOLS_SCM_PRETEND_VERSION=$version
+    pushd $PKG_BUILD_DIR/py2build
+        py.test
+    popd
+
+    pushd $PKG_BUILD_DIR/py3build
+        py.test3
+    popd
