@@ -1,8 +1,8 @@
 name       : python-keyrings.alt
-version    : 2.3
-release    : 2
+version    : '3.0'
+release    : 3
 source     :
-    - https://github.com/jaraco/keyrings.alt/archive/2.3.tar.gz : f6c931abdeba1813cd020550b58e67f561bf9085fd80a206761eb943602b6a3b
+    - https://github.com/jaraco/keyrings.alt/archive/3.0.tar.gz : 2962e6b89a70136db291a2935ffb09daaa99b6de647451b65c77450a70a776d5
 license    : MIT
 component  : programming.python
 summary    : Alternate keyring backend implementations for use with python-keyring
@@ -33,3 +33,4 @@ check      : |
     pushd $PKG_BUILD_DIR/py3build
         py.test3
     popd
+
